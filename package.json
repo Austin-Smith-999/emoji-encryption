@@ -6,10 +6,16 @@
     "repository": "Austin-Smith-999/emoji-encryption",
     "main": "index.js",
     "keywords": [
-      "caesar",
-      "cipher",
-      "npm",
-      "encryption",
-      "emoji"
-    ]
-    }
+        "caesar",
+        "cipher",
+        "npm",
+        "encryption",
+        "emoji"
+    ],
+    "devDependencies": {
+        "jest": "^27.5.1"
+    },
+    "scripts": {
+        "test": "jest"
+      }
+}
